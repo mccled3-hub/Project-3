@@ -9,7 +9,21 @@ html {
   font-size: 16pt;
 }
 
+nav {
+  /*testing*/
+  background-color: black;
+  width: 100vw;
+  height: auto;
+}
 
+nav a {
+  font-size: 10px;
+  color: whitesmoke;
+  text-decoration: none;
+  padding: 0 5px;
+  display: flex;
+
+}
 
 
 
