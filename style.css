@@ -1,29 +1,39 @@
 * {
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
 }
 
 html {
   color: #222;
   line-height: 1.4;
-  font-size: 16pt;
+  font-size: 20px;
 }
 
 nav {
   /*testing*/
   background-color: black;
   width: 100vw;
-  height: auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
 }
 
 nav a {
   font-size: 10px;
   color: whitesmoke;
   text-decoration: none;
-  padding: 0 5px;
-  display: flex;
-
 }
 
+.home {
+text-align: center;
+display: flex;
+justify-content: center;
+}
 
+.rsvp {
+  font-size: 16px;
+  background-color: red;
+  border-radius: 5px;
+}
 
