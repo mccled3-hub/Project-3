@@ -7,7 +7,7 @@
 html {
   color: #222;
   line-height: 1.4;
-  font-size: 20px;
+  font-size: 16px;
 }
 
 nav {
@@ -20,16 +20,17 @@ nav {
 }
 
 nav a {
-  font-size: 10px;
+  font-size: 0.8rem;
   color: whitesmoke;
   text-decoration: none;
 }
-
+main {
+  margin: 0 auto;
+}
 .home {
 text-align: center;
 display: flex;
 flex-direction: column;
-justify-content: space-between;
 }
 
 .rsvp {
