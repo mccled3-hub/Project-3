@@ -57,3 +57,36 @@ flex-direction: column;
   border-radius: 15px;
 }
 
+.about {
+  margin: 0 32px;
+  display: grid;
+  grid-template-rows: 1fr 1fr;
+  grid-template-columns: 1fr 2fr 1fr;
+}
+
+img {
+  border-radius:48px;
+  max-width: 100%;
+  height: auto;
+}
+
+.first {
+  grid-row: 1 / 1;
+  grid-column: 1 / 1;
+}
+
+.second {
+  grid-row: 2 / 2;
+  grid-column: 1 / 1;
+}
+
+.third {
+  grid-row: 1 / 2;
+  grid-column: 3 / 3;
+}
+
+.info {
+grid-row: 1 / 2;
+grid-column: 2 / 2;
+}
+
