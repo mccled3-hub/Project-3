@@ -9,6 +9,7 @@ html {
   line-height: 1.4;
   font-size: 16px;
   background-color: #6DCFFD;
+  font-family: "Playfair Display", serif;
 }
 
 nav {
@@ -28,10 +29,18 @@ nav a {
   padding: 0 32px;
 }
 
+a:hover {
+  color: white;
+  animation: pop-bottom 1s both;
+}
+
+
 h1{
   padding: 16px;
   font-size: 5rem;
    animation: text-focus-in 1s cubic-bezier(0.550, 0.085, 0.680, 0.530) both;
+   font-family: "Oswald", sans-serif;
+   font-weight: 700;
 }
 
 p{
@@ -42,10 +51,14 @@ p{
 h2{
   font-size: 2.3rem;
   padding: 8px;
+  font-family: "Oswald", sans-serif;
+  font-weight: 700;
 }
 
 h3{
   font-size: 1.5rem;
+  font-family: "Oswald", sans-serif;
+  font-weight: 700;
 }
 
 .home {
@@ -57,7 +70,7 @@ flex-direction: column;
 }
 
 .home2 {
-     animation: text-focus-in 2s cubic-bezier(0.550, 0.085, 0.680, 0.530) both;
+  animation: text-focus-in 2s cubic-bezier(0.550, 0.085, 0.680, 0.530) both;
 }
 .rsvp {
   margin: 16px auto;
@@ -66,7 +79,6 @@ flex-direction: column;
   background-color: #fdb44b;
   padding: 15px 50px;
   border-radius: 15px;
-   animation: text-shadow-pop-bottom 1s both;
 }
 
 .about {
