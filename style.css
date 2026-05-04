@@ -85,12 +85,16 @@ img {
   border-radius: 48px;
   grid-row: 1 / 2;
   grid-column: 1 / 1;
+  animation: text-focus-in 1.3s cubic-bezier(0.550, 0.085, 0.680, 0.530) both;
+
 }
 
 .second {
    border-radius: 48px;
   grid-row: 2 / span 3;
   grid-column: 1 / 1;
+ animation: text-focus-in 1.8s cubic-bezier(0.550, 0.085, 0.680, 0.530) both;
+
 }
 
 .third {
@@ -98,17 +102,23 @@ img {
   grid-row: 1 / span 2;
   grid-column: 3 / 3;
   margin-top: 200px;
+  animation: text-focus-in 2.3s cubic-bezier(0.550, 0.085, 0.680, 0.530) both;
+
 }
 
 .bday {
   grid-row: 1 / 1;
   grid-column: 2 / 2;
   align-content: end;
+  animation: text-focus-in 0.8s cubic-bezier(0.550, 0.085, 0.680, 0.530) both;
+
 }
 .info {
 grid-row: 2 / 2;
 grid-column: 2 / 2;
 align-content: start;
+animation: text-focus-in 2.6s cubic-bezier(0.550, 0.085, 0.680, 0.530) both;
+
 }
 
 .schedule {
