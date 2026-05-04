@@ -5,14 +5,15 @@
 }
 
 html {
-  color: #222;
+  color: #000F20;
   line-height: 1.4;
   font-size: 16px;
+  background-color: #6DCFFD;
 }
 
 nav {
   /*testing*/
-  background-color: black;
+  background-color: #000F20;
   width: 100vw;
   display: flex;
   flex-direction: row;
@@ -21,7 +22,7 @@ nav {
 
 nav a {
   font-size: 0.8rem;
-  color: whitesmoke;
+  color: #6DCFFD;
   text-decoration: none;
 }
 
@@ -52,7 +53,7 @@ flex-direction: column;
   margin: 0 auto;
   font-size: 1.5rem;
   text-decoration: none;
-  background-color: red;
+  background-color: #fdb44b;
   padding: 15px 50px;
   border-radius: 15px;
 }
