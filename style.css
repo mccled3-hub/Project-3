@@ -12,13 +12,13 @@ html {
 }
 
 nav {
-  /*testing*/
   background-color: #000F20;
   width: 100vw;
   display: flex;
   flex-direction: row;
   justify-content: center;
  padding: 16px;
+ margin-bottom: 88px;
 }
 
 nav a {
@@ -35,12 +35,16 @@ h1{
 
 p{
   font-size: 1.3rem;
-  padding: 16px;
+  padding: 8px;
 }
 
 h2{
   font-size: 2.3rem;
   padding: 8px;
+}
+
+h3{
+  font-size: 1.5rem;
 }
 
 .home {
@@ -63,8 +67,9 @@ flex-direction: column;
 .about {
   margin: 0 32px;
   display: grid;
-  grid-template-rows: 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
   grid-template-columns: 1fr 1fr 1fr;
+  gap: 16px;
 }
 
 img {
@@ -74,13 +79,13 @@ img {
 
 .first {
   border-radius: 48px;
-  grid-row: 1 / 1;
+  grid-row: 1 / 2;
   grid-column: 1 / 1;
 }
 
 .second {
    border-radius: 48px;
-  grid-row: 2 / 2;
+  grid-row: 2 / span 3;
   grid-column: 1 / 1;
 }
 
@@ -91,8 +96,33 @@ img {
   margin-top: 200px;
 }
 
+.bday {
+  grid-row: 1 / 1;
+  grid-column: 2 / 2;
+  align-content: end;
+}
 .info {
-grid-row: 1 / span 2;
+grid-row: 2 / 2;
 grid-column: 2 / 2;
-align-content: center;
+align-content: start;
+}
+
+.schedule {
+  margin: 16px 32px;
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  gap: 24px;
+}
+
+.start {
+  padding-top: 40px;
+  
+}
+
+ul {
+  list-style: none;
+}
+
+li {
+  padding-top: 40px;
 }
